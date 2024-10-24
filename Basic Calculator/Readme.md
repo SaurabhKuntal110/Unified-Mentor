@@ -24,17 +24,12 @@ This project is a **Basic Calculator** created using **HTML**, **CSS**, and **Ja
     https://github.com/SaurabhKuntal110/Unified-Mentor/tree/main/Basic%20Calculator
     ```
    
-2. Navigate to the project directory:
-    ```bash
-    cd Basic Calculator
-    ```
-
-3. Open the `index.html` file in your browser:
+2. Open the `index.html` file in your browser:
     ```bash
     open index.html
     ```
 
-4. Use the calculator to perform basic operations by clicking the buttons.
+3. Use the calculator to perform basic operations by clicking the buttons.
 
 ![calculator](https://github.com/user-attachments/assets/4676e3ff-04e0-4c31-b7d5-200774ed7cbd)
 
