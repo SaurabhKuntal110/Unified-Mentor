@@ -44,14 +44,6 @@ This project is a **Basic Calculator** created using **HTML**, **CSS**, and **Ja
 - `styles.css`: Contains the styles for the calculator.
 - `script.js`: Contains the JavaScript code for the calculator's functionality.
 
-## Code Example
-
-```javascript
-// Function to add numbers
-function add(a, b) {
-    return a + b;
-}
-
 ## Installation
 No special installation is required. Just clone the repository and open index.html in your browser.
 
@@ -59,4 +51,4 @@ No special installation is required. Just clone the repository and open index.ht
 If you'd like to contribute, feel free to fork the repository, make your changes, and submit a pull request. Suggestions and improvements are welcome!
 
 ## Copyright
-This project is open for anyone to use, modify, or distribute. Feel free to copy or improve upon it!
+This project is open for anyone to use, modify, or distribute. Feel free to copy or improve upon it.
