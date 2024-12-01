@@ -94,3 +94,40 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+/*----------------responsive--------------------*/
+
+@media only screen and (max-width: 490px){
+    .card{
+        width: 90%;
+        max-width: 400px;
+    }
+    .search input{
+        padding: 10px 10px;
+        height: 40px;
+        width: 3rem;
+        font-size: 15px;
+    }
+    .search button{
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+    .weather h1{
+        font-size: 60px;
+        font-weight: 400;
+    }
+    .weather h2{
+        font-size: 35px;
+        font-weight: 300; 
+    }
+    .details{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 30px;
+        padding: 0 10px;
+        gap: 20px;
+    }
+}
