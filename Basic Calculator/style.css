@@ -72,3 +72,65 @@ button:hover{
 .equalBtn{
     background-color: #f67c14;
 }
+/*---------------responsive------------------------*/
+@media only screen and (max-width: 625px) {
+    .calculator{
+        width: 60vmin;
+        height: 80vmin;
+   }
+   button{
+    height: 3.1rem;
+    width: 3.1rem;
+    font-size: 1.2rem;
+   }
+  }
+@media only screen and (max-width: 500px) {
+    .calculator{
+        width: 70vmin;
+        height: 90vmin;
+   }
+   button{
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.2rem;
+   }
+  }
+  @media only screen and (max-width: 430px) {
+    .calculator{
+        width: 75vmin;
+        height: 98vmin;
+   }
+   button{
+    height: 2.8rem;
+    width: 2.8rem;
+    font-size: 1.1rem;
+   }
+  }
+  @media only screen and (max-width: 375px) {
+    .calculator{
+        width: 80vmin;
+        height: 110vmin;
+   }
+   button{
+    height: 2.6rem;
+    width: 2.6rem;
+    font-size: 1rem;
+   }
+   .ac,.del{
+    font-size: 1rem;
+    }
+  }
+  @media only screen and (max-width: 325px) {
+    .calculator{
+        width: 80vmin;
+        height: 110vmin;
+   }
+   button{
+    height: 2.2rem;
+    width: 2.2rem;
+    font-size: 0.8rem;
+   }
+   .ac,.del{
+    font-size: 0.9rem;
+    }
+  }
