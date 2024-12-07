@@ -40,7 +40,7 @@ navOpenBtn.addEventListener('click',()=>{
     sideMenu.style.right = "0";
 })
 
-
+// JS for form in the contact section
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxV-Ht2zpN3lDdHOv1na9KgT-7Jmqi4W-Tl5MaeADH_vEso7kyBOPcpQe4KXmhivicN/exec'
 const form = document.forms['submit-to-google-sheet']
