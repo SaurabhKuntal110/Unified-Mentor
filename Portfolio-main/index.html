@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Data/Logo.png" class="logo">
+                <ul id="sideMenu">
+                    <i class="fa-solid fa-xmark"></i>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="headerText">
+                <p>Front-end Developer</p>
+                <h1>Hi, I'm <span>Saurabh</span><br> Kuntal From <span>India</span></h1>
+            </div>
+        </div>
+    </div>
+    <!------------------AboutSection-------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutCol1">
+                    <img src="Data/Pic SK.png">
+                </div>
+                <div class="aboutCol2">
+                    <h1 class="subTitle">About Me</h1>
+                    <p id="aboutMe">I am a passionate Front-end Developer with a strong foundation in HTML, CSS, and JavaScript. As a B.Tech with honors, I bring a unique perspective to problem-solving and attention to detail in web development.
+                        During my internship at Unified Mentor, I honed my skills by working on projects like a basic calculator, an image slider, a currency converter app, a weather app, and JavaScript-based games. These experiences have strengthened my expertise in DOM manipulation, REST API integration, event handling, and logic building.
+                        I am constantly learning and growing, with a goal to create seamless, user-friendly web experiences. Driven by curiosity and a love for coding, I am excited to contribute my skills to impactful projects.</p>
+                        <div class="tabTitles">
+                            <p class="tabLinks activeLink" data-tab="skills">Skills</p>
+                            <p class="tabLinks" data-tab="experience">Experience</p>
+                            <p class="tabLinks" data-tab="certificates">Certifiactions</p>
+                        </div>
+                        <div class="tabContents activeTab" id="skills">
+                            <ul>
+                                <li><span>Front-end Development</span><br> HTML5, CSS3, Advance JavaScript</li>
+                                <li><span>Programming Concepts</span><br> DOM Manipulation, Event Handling, Logic Building, Debugging, Error Handling</li>
+                                <li><span>APIs</span><br> REST API Integration</li>
+                                <li><span>Version Control</span><br> Git, GitHub</li>
+                            </ul>
+                        </div>
+                        <div class="tabContents" id="experience">
+                            <ul>
+                                <li><span>Oct,2024-Current</span><br> Internship at Unified Mentor</li>
+                                <li><span>Mar,2021-June,2024</span><br> Freelancing</li>
+                                <li><span>Nov,2020-Mar,2021</span><br> Programmer Analyst Trainee at Cognizant Technology Solutions</li>
+                            </ul>
+                        </div>
+                        <div class="tabContents" id="certificates">
+                            <ul>
+                                <li><span>Nov,2024</span><br> Meta's Version Control</li>
+                                <li><span>Oct-Nov,2024</span><br> Meta's Programming with JavaScript</li>
+                                <li><span>Oct,2024</span><br> Front-end Web Development from Reliance Foundation</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------Services-------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subTitle">My Services</h1>
+            <div class="servicesList">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Responsive Website</h2>
+                    <p>"I will build a fully responsive website using HTML, CSS, and JavaScript. The website will adapt seamlessly to different screen sizes and devices, ensuring an optimal user experience. This includes creating a clean and modern design, implementing mobile-first principles, and adding interactive features to enhance functionality."</p>
+                    <a href="services.html#RW">Learn more...</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-clone"></i>
+                    <h2>Cloning Website UI</h2>
+                    <p>"I will replicate the user interface of a website with precision using HTML & CSS. This includes creating visually accurate layouts and implementing responsive designs seamlessly. The cloned UI will be pixel-perfect, responsive, and compatible across various devices and browsers."</p>
+                    <a href="services.html#CW">Learn more...</a>
+                </div>
+                <!-- <div>
+                    <i class="fa-solid fa-puzzle-piece"></i>
+                    <h2>Mini-Games Development</h2>
+                    <p>"I will create fun and interactive mini-games like Tic Tac Toe, Stone-Paper-Scissors, and more using HTML, CSS, and JavaScript. These games will be engaging, responsive, and designed to provide smooth gameplay. Let me help you bring your ideas to life with simple and enjoyable games."</p>
+                    <a href="services.html#MG">Learn more...</a>
+                </div> -->
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>"I develop responsive and dynamic web apps using HTML, CSS, and JavaScript, tailored to your needs with clean, optimized, and user-friendly designs. Let me help you boost your business."</p>
+                    <a href="services.html#AD">Learn more...</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <h2>Error Debugging</h2>
+                    <p>"I will debug and fix errors in your code to ensure smooth functionality and optimal performance. Whether it's resolving syntax issues, fixing logic errors, or addressing compatibility problems, I will identify and correct the issues efficiently. Your code will be optimized, error-free, and ready to run flawlessly."</p>
+                    <a href="services.html#ED">Learn more...</a>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <!------------------portfolio--------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subTitle">My Work</h1>
+            <div class="workList">
+                <div class="work">
+                    <img src="Data/calculator.jpg">
+                    <div class="layer">
+                        <h3>Basic Calculator App</h3>
+                        <p>The calculator app performs arithmetic operations using JavaScript and displays results via DOM updates.</p>
+                        <a href="https://saurabhkuntal110.github.io/Basic_Calculator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Data/Currency Convertor.jpg">
+                    <div class="layer">
+                        <h3>Currency Convertor App</h3>
+                        <p>The currency converter fetches real-time exchange rates using an API and calculates conversions based on user input.</p>
+                        <a href="https://saurabhkuntal110.github.io/Currency-Convertor/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Data/weather app.jpg">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>The Weather app fetches real-time weather data from an API based on user input and displays it dynamically using JavaScript.</p>
+                        <a href="https://saurabhkuntal110.github.io/Basic_Weather_App/Index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------------------contact------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactLeft">
+                <h1 class="subTitle">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> Wintersoldier110@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91-9599634265</p>
+                <div class="socialIcons">
+                    <a href="https://www.linkedin.com/in/saurabh-kuntal-6b0a56160/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/SaurabhKuntal110"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://t.me/Gumgumjetpistol"><i class="fa-solid fa-paper-plane"></i></a>
+                    <a href="https://www.instagram.com/kuntal_sk_"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Data/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contactRight">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Enter Name" required>
+                    <input type="text" name="Email" placeholder="Enter Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="copyright">
+        <p>Made with <i class="fa-solid fa-heart"></i> by Saurabh Kuntal. <i class="fa-regular fa-copyright"></i> All Right Reserved.</p>
+    </div>
+</footer>
+    <script src="Script.js"></script>
+</body>
+</html>
